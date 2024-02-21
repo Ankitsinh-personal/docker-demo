@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  container1:
+    build:
+      context: ./
+    working_dir: /
+    volumes:
+      - ./data:/data
+
+# volumes:
+#   data:
